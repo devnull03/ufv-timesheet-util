@@ -1,0 +1,9 @@
+target
+.shuttle-storage
+Secrets*.toml
+.shuttle*
+.env
+
+ts/node_modules/
+
+templates/*.pdf
