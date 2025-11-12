@@ -10,5 +10,7 @@ pub mod service;
 pub use service::{TimesheetConfig, TimesheetService};
 
 // Re-export key types for convenience
-pub use helpers::pdf::{TimesheetData, TimesheetEntry};
-pub use models::notion::{NotionResponse, Page};
+pub use models::{
+	pdf::{TimesheetData, TimesheetEntry},
+	notion::{NotionResponse, Page}
+};

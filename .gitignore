@@ -7,3 +7,4 @@ Secrets*.toml
 ts/node_modules/
 
 templates/*.pdf
+temp/
