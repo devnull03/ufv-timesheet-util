@@ -1,5 +1,5 @@
 [package]
-name = "ufv-timesheet-util"
+name = "ufv_timesheet_util"
 version = "0.1.0"
 edition = "2024"
 
@@ -7,7 +7,7 @@ edition = "2024"
 name = "ufv_timesheet_util"
 path = "src/lib.rs"
 
-crate-type = ["cdylib"]
+# crate-type = ["cdylib"]
 
 [dependencies]
 axum = "0.8.4"

@@ -47,9 +47,9 @@ impl TimesheetService {
         let shared_state = Arc::new(self);
         
         Router::new()
-            .route("/timesheet-webhook", post(timesheet_webhook))
-            .route("/timesheet-test", get(timesheet_test))
-            .route("/timesheet-db-info", get(timesheet_db_info))
+            .route("/webhook", post(timesheet_webhook))
+            .route("/test", get(timesheet_test))
+            .route("/db-info", get(timesheet_db_info))
             .with_state(shared_state)
     }
 
